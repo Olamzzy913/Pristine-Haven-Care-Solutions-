@@ -716,6 +716,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 400px;
 }
 
+.w-\[360px\] {
+  width: 360px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -1702,6 +1706,10 @@ b {
     display: none;
   }
 
+  .lg\:h-\[400px\] {
+    height: 400px;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
@@ -1732,6 +1740,18 @@ b {
 
   .lg\:w-\[41\.66666\%\] {
     width: 41.66666%;
+  }
+
+  .lg\:w-\[461px\] {
+    width: 461px;
+  }
+
+  .lg\:w-\[4px\] {
+    width: 4px;
+  }
+
+  .lg\:w-\[403px\] {
+    width: 403px;
   }
 
   .lg\:max-w-\[960px\] {
