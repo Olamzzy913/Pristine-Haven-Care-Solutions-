@@ -544,6 +544,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 29px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .mb-\[12px\] {
   margin-bottom: 12px;
 }
@@ -624,10 +628,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 60px;
 }
 
-.mr-\[10px\] {
-  margin-right: 10px;
-}
-
 .mt-\[32px\] {
   margin-top: 32px;
 }
@@ -638,10 +638,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-\[5px\] {
   margin-bottom: 5px;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
 }
 
 .block {
@@ -676,10 +672,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 70px;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -708,20 +700,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 40px;
 }
 
-.w-\[461px\] {
-  width: 461px;
+.w-\[360px\] {
+  width: 360px;
 }
 
 .w-\[403px\] {
   width: 403px;
-}
-
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-\[360px\] {
-  width: 360px;
 }
 
 .max-w-full {
@@ -873,16 +857,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .p-\[30px\] {
@@ -1052,6 +1026,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-\[15px\] {
   padding-bottom: 15px;
+}
+
+.pb-\[80px\] {
+  padding-bottom: 80px;
 }
 
 .pt-10 {
@@ -1265,6 +1243,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-postion: end;
 }
 
 .heroP2{
@@ -1295,6 +1274,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: end;
 }
 
 b {
@@ -1748,10 +1728,6 @@ b {
 
   .lg\:w-\[461px\] {
     width: 461px;
-  }
-
-  .lg\:w-\[4px\] {
-    width: 4px;
   }
 
   .lg\:w-\[403px\] {
