@@ -640,6 +640,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5px;
 }
 
+.mt-\[8px\] {
+  margin-top: 8px;
+}
+
 .block {
   display: block;
 }
