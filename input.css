@@ -11,38 +11,42 @@
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-postion: end;
+  background-position: bottom;
 }
 
 .heroP2{
   background-image: url(/assets/hero__2.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP3{
   background-image: url(/assets/hero__3.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP4{
   background-image: url(/assets/hero__4.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP5{
   background-image: url(/assets/hero__5.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hovEff2 {
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: end;
+  background-position: bottom;
 }
 
 b {

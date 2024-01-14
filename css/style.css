@@ -652,6 +652,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
 }
@@ -718,6 +722,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .list-disc {
   list-style-type: disc;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -1192,6 +1200,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
+.text-green-800 {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1243,38 +1256,42 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-postion: end;
+  background-position: bottom;
 }
 
 .heroP2{
   background-image: url(/assets/hero__2.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP3{
   background-image: url(/assets/hero__3.avif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP4{
   background-image: url(/assets/hero__4.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroP5{
   background-image: url(/assets/hero__5.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hovEff2 {
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: end;
+  background-position: bottom;
 }
 
 b {
@@ -1644,6 +1661,10 @@ b {
 
   .md\:max-w-\[720px\] {
     max-width: 720px;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:py-\[120px\] {
