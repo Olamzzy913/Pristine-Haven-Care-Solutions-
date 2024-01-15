@@ -612,10 +612,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 24px;
 }
 
-.mt-\[-35px\] {
-  margin-top: -35px;
-}
-
 .mt-\[40px\] {
   margin-top: 40px;
 }
@@ -700,20 +696,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 200px;
 }
 
-.w-\[260px\] {
-  width: 260px;
-}
-
-.w-\[40px\] {
-  width: 40px;
-}
-
 .w-\[360px\] {
   width: 360px;
 }
 
 .w-\[403px\] {
   width: 403px;
+}
+
+.w-\[40px\] {
+  width: 40px;
 }
 
 .max-w-full {
@@ -786,14 +778,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-tr-\[10px\] {
   border-top-right-radius: 10px;
-}
-
-.rounded-tl-\[10px\] {
-  border-top-left-radius: 10px;
-}
-
-.rounded-br-\[10px\] {
-  border-bottom-right-radius: 10px;
 }
 
 .border {
@@ -869,6 +853,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-transparent {
   background-color: transparent;
+}
+
+.bg-\[rgba\(12\2c 12\2c 12\2c 0\.21\)\] {
+  background-color: rgba(12,12,12,0.21);
 }
 
 .p-\[30px\] {
@@ -1032,10 +1020,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 6px;
 }
 
-.pt-\[50px\] {
-  padding-top: 50px;
-}
-
 .pb-\[15px\] {
   padding-bottom: 15px;
 }
@@ -1052,16 +1036,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 8px;
 }
 
+.pb-\[1\.5rem\] {
+  padding-bottom: 1.5rem;
+}
+
 .pr-\[30px\] {
   padding-right: 30px;
 }
 
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[1\.5rem\] {
-  padding-bottom: 1.5rem;
+.pb-\[120px\] {
+  padding-bottom: 120px;
 }
 
 .text-center {
@@ -1294,6 +1278,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .heroP5{
   background-image: url(/assets/hero__5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroP6{
+  background-image: url(/assets/ser_pro_3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroP7{
+  background-image: url(/assets/ser_prof_3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroP8{
+  background-image: url(/assets/ser_dom_3.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1637,6 +1641,10 @@ b {
     padding-right: 50px;
   }
 
+  .smi\:pb-\[200px\] {
+    padding-bottom: 200px;
+  }
+
   .smi\:text-\[40px\] {
     font-size: 40px;
   }
@@ -1669,14 +1677,6 @@ b {
 
   .md\:w-\[66\.6666\%\] {
     width: 66.6666%;
-  }
-
-  .md\:w-\[78\%\] {
-    width: 78%;
-  }
-
-  .md\:w-\[70\%\] {
-    width: 70%;
   }
 
   .md\:max-w-\[720px\] {
@@ -1777,14 +1777,6 @@ b {
 
   .lg\:w-\[46\.666\%\] {
     width: 46.666%;
-  }
-
-  .lg\:w-\[\.666\%\] {
-    width: .666%;
-  }
-
-  .lg\:w-\[36\.666\%\] {
-    width: 36.666%;
   }
 
   .lg\:max-w-\[960px\] {

@@ -42,6 +42,26 @@
   background-position: center;
 }
 
+.heroP6{
+  background-image: url(/assets/ser_pro_3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroP7{
+  background-image: url(/assets/ser_prof_3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: center;
+}
+
+.heroP8{
+  background-image: url(/assets/ser_dom_3.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: center;
+}
+
 .hovEff2 {
   background-image: url(/assets/hero__1.avif);
   background-size: cover;
