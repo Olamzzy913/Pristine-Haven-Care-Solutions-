@@ -524,6 +524,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 29px;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mr-\[7px\] {
   margin-right: 7px;
 }
@@ -640,6 +650,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 5px;
 }
 
+.ml-\[8px\] {
+  margin-left: 8px;
+}
+
 .block {
   display: block;
 }
@@ -724,6 +738,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -738,6 +756,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -770,6 +792,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-\[27px\] {
   border-radius: 27px;
+}
+
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-bl-\[10px\] {
@@ -823,6 +853,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgba(12,12,11,0.68);
 }
 
+.border-navText {
+  --tw-border-opacity: 1;
+  border-color: rgb(128 1 31 / var(--tw-border-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -857,6 +892,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-\[rgba\(12\2c 12\2c 12\2c 0\.21\)\] {
   background-color: rgba(12,12,12,0.21);
+}
+
+.bg-\[rgba\(235\2c 118\2c 118\2c 0\.21\)\] {
+  background-color: rgba(235,118,118,0.21);
 }
 
 .p-\[30px\] {
@@ -990,6 +1029,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-\[27px\] {
   padding-top: 27px;
   padding-bottom: 27px;
+}
+
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pr-0 {
@@ -1154,6 +1203,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .leading-\[14px\] {
   line-height: 14px;
+}
+
+.leading-\[1\] {
+  line-height: 1;
 }
 
 .text-black {
@@ -1449,6 +1502,228 @@ b {
   height: 410px;
 }
 
+.hovEffSer {
+  background-image: url(/assets/ser_prof_2.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 4px;
+}
+
+//service domestic image
+.hovEffSer1 {
+  background-image: url(/assets/dom_house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer2 {
+  background-image: url(/assets/dom_house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer3 {
+  background-image: url(/assets/dom_cook.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer4 {
+  background-image: url(/assets/dom_chef.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer5 {
+  background-image: url(/assets/dom_driver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer6 {
+  background-image: url(/assets/dom_adult.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer7 {
+  background-image: url(/assets/dom_personal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer8 {
+  background-image: url(/assets/dom_baby.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+//service professionals image
+.hovEffSer9 {
+  background-image: url(/assets/prof_re.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer10 {
+  background-image: url(/assets/prof_talent.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer11 {
+  background-image: url(/assets/prof_intrim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer12 {
+  background-image: url(/assets/prof_con.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer13 {
+  background-image: url(/assets/prof_onboarding.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer14 {
+  background-image: url(/assets/prof_employee.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer15 {
+  background-image: url(/assets/prof_training.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer16 {
+  background-image: url(/assets/prof_benefit.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer17 {
+  background-image: url(/assets/pro_sourcing.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer18 {
+  background-image: url(/assets/prof_training.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer19 {
+  background-image: url(/assets/pro_shopping.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer20 {
+  background-image: url(/assets/prof_intrim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer21 {
+  background-image: url(/assets/pro_cost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer22 {
+  background-image: url(/assets/pro_risk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer23 {
+  background-image: url(/assets/prof_re.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer24 {
+  background-image: url(/assets/dom_nanny.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.effSer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.6s;
+}
+
+.overlaySer {
+  position: absolute;
+  bottom: 0;
+  top: 123px;
+  left: 8px;
+}
+
 .eff {
   position: absolute;
   top: 0px;
@@ -1572,6 +1847,11 @@ b {
   background-color: transparent;
 }
 
+.hover\:bg-navText:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 1 31 / var(--tw-bg-opacity));
+}
+
 .hover\:text-navText:hover {
   --tw-text-opacity: 1;
   color: rgb(128 1 31 / var(--tw-text-opacity));
@@ -1585,6 +1865,11 @@ b {
 .hover\:text-\[\#AF2747\]:hover {
   --tw-text-opacity: 1;
   color: rgb(175 39 71 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover {
@@ -1687,6 +1972,10 @@ b {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:py-\[120px\] {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1783,6 +2072,10 @@ b {
     max-width: 960px;
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:bg-\[rgba\(218\2c 217\2c 214\2c 0\.88\)\] {
     background-color: rgba(218,217,214,0.88);
   }
@@ -1831,6 +2124,10 @@ b {
 
   .slg\:max-w-\[1110px\] {
     max-width: 1110px;
+  }
+
+  .slg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .slg\:text-\[45px\] {

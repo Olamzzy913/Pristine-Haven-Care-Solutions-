@@ -214,6 +214,230 @@ b {
 }
 
 
+.hovEffSer {
+  background-image: url(/assets/ser_prof_2.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 4px;
+}
+
+//service domestic image
+.hovEffSer1 {
+  background-image: url(/assets/dom_house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer2 {
+  background-image: url(/assets/dom_house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer3 {
+  background-image: url(/assets/dom_cook.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer4 {
+  background-image: url(/assets/dom_chef.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  border-radius: 6px;
+}
+
+
+.hovEffSer5 {
+  background-image: url(/assets/dom_driver.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer6 {
+  background-image: url(/assets/dom_adult.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer7 {
+  background-image: url(/assets/dom_personal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer8 {
+  background-image: url(/assets/dom_baby.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+//service professionals image
+.hovEffSer9 {
+  background-image: url(/assets/prof_re.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer10 {
+  background-image: url(/assets/prof_talent.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 200px;
+  border-radius: 6px;
+}
+
+
+.hovEffSer11 {
+  background-image: url(/assets/prof_intrim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer12 {
+  background-image: url(/assets/prof_con.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer13 {
+  background-image: url(/assets/prof_onboarding.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer14 {
+  background-image: url(/assets/prof_employee.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer15 {
+  background-image: url(/assets/prof_training.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer16 {
+  background-image: url(/assets/prof_benefit.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer17 {
+  background-image: url(/assets/pro_sourcing.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer18 {
+  background-image: url(/assets/prof_training.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer19 {
+  background-image: url(/assets/pro_shopping.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer20 {
+  background-image: url(/assets/prof_intrim.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer21 {
+  background-image: url(/assets/pro_cost.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer22 {
+  background-image: url(/assets/pro_risk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer23 {
+  background-image: url(/assets/prof_re.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.hovEffSer24 {
+  background-image: url(/assets/dom_nanny.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.effSer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.6s;
+}
+
+.overlaySer {
+  position: absolute;
+  bottom: 0;
+   top: 123px;
+  left: 8px;
+}
+
 
 .eff {
   position: absolute;
