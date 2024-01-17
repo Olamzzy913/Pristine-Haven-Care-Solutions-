@@ -524,16 +524,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 29px;
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mr-\[7px\] {
   margin-right: 7px;
 }
@@ -646,24 +636,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 29px;
 }
 
-.mb-\[5px\] {
-  margin-bottom: 5px;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .ml-\[8px\] {
   margin-left: 8px;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .block {
@@ -702,14 +684,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 70px;
 }
 
-.h-\[15px\] {
-  height: 15px;
-}
-
-.h-\[36px\] {
-  height: 36px;
-}
-
 .h-\[3\.2rem\] {
   height: 3.2rem;
 }
@@ -746,56 +720,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 403px;
 }
 
-.w-\[40px\] {
-  width: 40px;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[80px\] {
-  width: 80px;
-}
-
-.w-\[2\] {
-  width: 2;
-}
-
-.w-\[10px\] {
-  width: 10px;
+.w-\[3\.2rem\] {
+  width: 3.2rem;
 }
 
 .w-\[180px\] {
   width: 180px;
 }
 
-.w-\[1px\] {
-  width: 1px;
-}
-
-.w-\[15px\] {
-  width: 15px;
-}
-
-.w-\[36px\] {
-  width: 36px;
-}
-
-.w-\[3\.2remm\] {
-  width: 3.2remm;
-}
-
-.w-\[3\.2rem\] {
-  width: 3.2rem;
-}
-
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-\[\] {
-  max-width: ;
 }
 
 .max-w-\[3\.2rem\] {
@@ -816,18 +750,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .flex-wrap {
@@ -886,20 +808,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 27px;
 }
 
-.rounded-\[8px\] {
-  border-radius: 8px;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded-bl-\[10px\] {
-  border-bottom-left-radius: 10px;
-}
-
-.rounded-tr-\[10px\] {
-  border-top-right-radius: 10px;
+.rounded-\[8px\] {
+  border-radius: 8px;
 }
 
 .border {
@@ -982,12 +896,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: transparent;
 }
 
-.bg-\[rgba\(12\2c 12\2c 12\2c 0\.21\)\] {
-  background-color: rgba(12,12,12,0.21);
-}
-
 .bg-\[rgba\(235\2c 118\2c 118\2c 0\.21\)\] {
   background-color: rgba(235,118,118,0.21);
+}
+
+.bg-\[rgba\(12\2c 12\2c 12\2c 0\.21\)\] {
+  background-color: rgba(12,12,12,0.21);
 }
 
 .p-\[30px\] {
@@ -998,28 +912,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1.5rem;
 }
 
+.p-\[15px\] {
+  padding: 15px;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
 
 .p-\[6px\] {
   padding: 6px;
-}
-
-.p-\[4px\] {
-  padding: 4px;
-}
-
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[1\.6rem\] {
-  padding: 1.6rem;
-}
-
-.p-\[15px\] {
-  padding: 15px;
 }
 
 .px-\[15px\] {
@@ -1142,19 +1044,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 32px;
 }
 
-.py-\[27px\] {
-  padding-top: 27px;
-  padding-bottom: 27px;
-}
-
 .py-\[4px\] {
   padding-top: 4px;
   padding-bottom: 4px;
-}
-
-.py-\[10px\] {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .pr-0 {
@@ -1203,10 +1095,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-\[1\.5rem\] {
   padding-bottom: 1.5rem;
-}
-
-.pr-\[30px\] {
-  padding-right: 30px;
 }
 
 .pb-\[120px\] {
@@ -1267,10 +1155,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-\[10px\] {
   font-size: 10px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
 }
 
 .text-\[1px\] {
@@ -1716,7 +1600,7 @@ b {
 }
 
 .hovEffSer10 {
-  background-image: url(/assets/prof_talent.jpg);
+  background-image: url(/assets/interview.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -1741,7 +1625,7 @@ b {
 }
 
 .hovEffSer13 {
-  background-image: url(/assets/prof_onboarding.jpeg);
+  background-image: url(/assets/onboard.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -1821,7 +1705,7 @@ b {
 }
 
 .hovEffSer23 {
-  background-image: url(/assets/prof_re.jpg);
+  background-image: url(/assets/official.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
@@ -2042,16 +1926,8 @@ b {
     width: 83%;
   }
 
-  .smi\:w-1\/2 {
-    width: 50%;
-  }
-
   .smi\:max-w-\[540px\] {
     max-width: 540px;
-  }
-
-  .smi\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .smi\:grid-cols-2 {
@@ -2078,6 +1954,10 @@ b {
   .smi\:text-\[22px\] {
     font-size: 22px;
   }
+
+  .smi\:text-\[32px\] {
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2103,10 +1983,6 @@ b {
 
   .md\:w-\[66\.6666\%\] {
     width: 66.6666%;
-  }
-
-  .md\:w-\[40\%\] {
-    width: 40%;
   }
 
   .md\:max-w-\[720px\] {
@@ -2225,10 +2101,6 @@ b {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2297,5 +2169,9 @@ b {
 
   .slg\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .slg\:text-\[32px\] {
+    font-size: 32px;
   }
 }
